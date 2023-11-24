@@ -1,0 +1,24 @@
+.notes {
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+background-color: #26282f; 
+border-left: 5px solid #9D6EDB; 
+border-right: 5px solid #9D6EDB; 
+border-radius: 10px; 
+padding: 10px; 
+t-align: center
+}
+.notes-1{
+display:block;
+width:auto;
+color:white;
+margin:0;
+text-align: justify;
+font-family: 'Quicksand',sans-serif;
+line-height: 1.5em;
+}
+.notes-1:before{content:"RAW used in here is taken from ";
+}
+.notes-1:after {
+content:". Though, the RAW I used for the softsub is the cut version. Therefore, the softsub can't be used for other RAW except the one that is provided.";
+}

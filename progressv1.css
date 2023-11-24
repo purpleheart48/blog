@@ -1,0 +1,154 @@
+.norm { text-align: center; font-weight:600; font-size:9pt; color: white; }
+.normold { text-align: center; font-weight:800; font-size:8pt; color: #BA0E31; }
+.new {  margin:auto; width:100%; text-align:center; background:#292f33; border-radius: 5pt; }
+.progrestv0 .progrestv1 .progrestv2 .progrestv3 .progrestv4 .progrestv5 .progrestv6 .progrestv7 .progrestv8 .progrestv9 .progrestv10 .progresyt0 .progresyt1 .progresyt2 .progresyt3 .progresyt4 .progresyt5 .progresyt5 .progresyt6 .progresyt7 .progresyt8 .progresyt9 .progresyt10 .progressr0 .progressr1 .progressr2 .progressr3 .progressr4 .progressr5 .progressr6 .progressr7 .progressr8 .progressr9 .progressr10 .progresgreshan0 .progresgreshan1 .progresgreshan2 .progresgreshan3 .progresgreshan4 .progresgreshan5 .progresgreshan6 .progresgreshan7 .progresgreshan8 .progresgreshan9 .progresgreshan10
+.progresother0 .progresother1 .progresother2 .progresother3 .progresother4 .progresother5 .progresother6 .progresother7 .progresother8 .progresother9 .progresother10 .progreshold0 .progreshold1 .progreshold2 .progreshold3 .progreshold4 .progreshold5 .progresother6 .progreshold7 .progreshold8 .progreshold9 .progreshold10 {
+  padding: 6px;
+  border-radius: border-radius: 4pt;
+  background: lightgrey;  
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progres-bar {
+  height: 18px;
+  border-radius: 4pt; 
+  transition: 0.3s linear;  
+  transition-property: width, background-color;    
+}
+
+.counter {
+  color:white;
+  font-size:9pt;
+}
+.progres-movedtv0 .progres-bar { width: 0%; background-color: #fcdc4d; animation: progrestv0Animation 0s; }
+.progres-movedtv1 .progres-bar { width: 10%; background-color: #fcdc4d; animation: progrestv1Animation 10s; }
+.progres-movedtv2 .progres-bar { width: 20%; background-color: #fcdc4d; animation: progrestv2Animation 10s; }
+.progres-movedtv3 .progres-bar { width: 30%; background-color: #fcdc4d; animation: progresstv3Animation 10s; }
+.progres-movedtv4 .progres-bar { width: 40%; background-color: #fcdc4d; animation: progrestv4Animation 10s; }
+.progres-movedtv5 .progres-bar { width: 50%; background-color: #fcdc4d; animation: progrestv5Animation 10s; }
+.progres-movedtv6 .progres-bar { width: 60%; background-color: #fcdc4d; animation: progrestv6Animation 10s; }
+.progres-movedtv7 .progres-bar { width: 70%; background-color: #fcdc4d; animation: progrestv7Animation 10s; }
+.progres-movedtv8 .progres-bar { width: 80%; background-color: #fcdc4d; animation: progrestv8Animation 10s; }
+.progres-movedtv9 .progres-bar { width: 90%; background-color: #fcdc4d; animation: progrestv9Animation 10s; }
+.progres-movedtv10 .progres-bar { width: 100%; background-color: #fcdc4d; animation: progrestv10Animation 10s; }
+.progres-movedyt0 .progres-bar { width: 0%; background-color: #fcdc4d; animation: progresyt0Animation 0s; }
+.progres-movedyt1 .progres-bar { width: 10%; background-color: #fe0000; animation: progresyt1Animation 10s;}
+.progres-movedyt2 .progres-bar { width: 20%; background-color: #fe0000; animation: progresyt2Animation 10s;}
+.progres-movedyt3 .progres-bar { width: 30%; background-color: #fe0000; animation: progresyt3Animation 10s;}
+.progres-movedyt4 .progres-bar { width: 40%; background-color: #fe0000; animation: progresyt4Animation 10s;}
+.progres-movedyt5 .progres-bar { width: 50%; background-color: #fe0000; animation: progresyt5Animation 10s;}
+.progres-movedyt6 .progres-bar { width: 60%; background-color: #fe0000; animation: progresyt6Animation 10s;}
+.progres-movedyt7 .progres-bar { width: 70%; background-color: #fe0000; animation: progresyt7Animation 10s;}
+.progres-movedyt8 .progres-bar { width: 80%; background-color: #fe0000; animation: progresyt8Animation 10s;}
+.progres-movedyt9 .progres-bar { width: 90%; background-color: #fe0000; animation: progresyt9Animation 10s;}
+.progres-movedyt10 .progres-bar { width: 100%; background-color: #fe0000; animation: progresyt10Animation 10s;}
+.progres-movedsr0 .progres-bar { width: 0%; background-color: #c3956d; animation: progressr0Animation 0s; }
+.progres-movedsr1 .progres-bar { width: 10%; background-color: #c3956d; animation: progressr1Animation 10s; }
+.progres-movedsr2 .progres-bar { width: 20%; background-color: #c3956d; animation: progressr2Animation 10s; }
+.progres-movedsr3 .progres-bar { width: 30%; background-color: #c3956d; animation: progressr3Animation 10s; }
+.progres-movedsr4 .progres-bar { width: 40%; background-color: #c3956d; animation: progressr4Animation 10s; }
+.progres-movedsr5 .progres-bar { width: 50%; background-color: #c3956d; animation: progressr5Animation 10s; }
+.progres-movedsr6 .progres-bar { width: 60%; background-color: #c3956d; animation: progressr6Animation 10s; }
+.progres-movedsr7 .progres-bar { width: 70%; background-color: #c3956d; animation: progressr7Animation 10s; }
+.progres-movedsr8 .progres-bar { width: 80%; background-color: #c3956d; animation: progressr8Animation 10s; }
+.progres-movedsr9 .progres-bar { width: 90%; background-color: #c3956d; animation: progressr9Animation 10s; }
+.progres-movedsr10 .progres-bar { width: 100%; background-color: #c3956d; animation: progressr10Animation 10s; }
+.progres-movedgreshan0 .progres-bar { width: 0%; background-color: #fcdc4d; animation: progregreshans0Animation 0s; }
+.progres-movedgreshan1 .progres-bar { width: 10%; background-color: #a3add7; animation: progresgreshan1Animation 10s; }
+.progres-movedgreshan2 .progres-bar { width: 20%; background-color: #a3add7; animation: progresgreshan2Animation 10s; }
+.progres-movedgreshan3 .progres-bar { width: 30%; background-color: #a3add7; animation: progresgreshan3Animation 10s; }
+.progres-movedgreshan4 .progres-bar { width: 40%; background-color: #a3add7; animation: progresgreshan4Animation 10s; }
+.progres-movedgreshan5 .progres-bar { width: 50%; background-color: #a3add7; animation: progresgreshan5Animation 10s; }
+.progres-movedgreshan6 .progres-bar { width: 60%; background-color: #a3add7; animation: progresgreshan6Animation 10s; }
+.progres-movedgreshan7 .progres-bar { width: 70%; background-color: #a3add7; animation: progresgreshan7Animation 10s; }
+.progres-movedgreshan8 .progres-bar { width: 80%; background-color: #a3add7; animation: progresgreshan8Animation 10s; }
+.progres-movedgreshan9 .progres-bar { width: 90%; background-color: #a3add7; animation: progresgreshan9Animation 10s; }
+.progres-movedgreshan10 .progres-bar { width: 100%; background-color: #a3add7; animation: progresgreshan10Animation 10s; }
+.progres-movedhold0 .progres-bar { width: 0%; background-color: #8b2c9a; animation: progreshold0Animation 0s; }
+.progres-movedhold1 .progres-bar { width: 10%; background-color: #8b2c9a; animation: progreshold1Animation 10s; }
+.progres-movedhold2 .progres-bar { width: 20%; background-color: #8b2c9a; animation: progreshold2Animation 10s; }
+.progres-movedhold3 .progres-bar { width: 30%; background-color: #8b2c9a; animation: progreshold3Animation 10s; }
+.progres-movedhold4 .progres-bar { width: 40%; background-color: #8b2c9a; animation: progreshold4Animation 10s; }
+.progres-movedhold5 .progres-bar { width: 50%; background-color: #8b2c9a; animation: progreshold5Animation 10s; }
+.progres-movedhold6 .progres-bar { width: 60%; background-color: #8b2c9a; animation: progreshold6Animation 10s; }
+.progres-movedhold7 .progres-bar { width: 70%; background-color: #8b2c9a; animation: progreshold7Animation 10s; }
+.progres-movedhold8 .progres-bar { width: 80%; background-color: #8b2c9a; animation: progreshold8Animation 10s; }
+.progres-movedhold9 .progres-bar { width: 90%; background-color: #8b2c9a; animation: progreshold9Animation 10s; }
+.progres-movedhold10 .progres-bar { width: 100%; background-color: #8b2c9a; animation: progreshold10Animation 10s; }
+.progres-movedother0 .progres-bar { width: 0%; background-color: #9D6EDB; animation: progresother0Animation 0s; }
+.progres-movedother1 .progres-bar { width: 10%; background-color: #9D6EDB; animation: progresother1Animation 10s; }
+.progres-movedother2 .progres-bar { width: 20%; background-color: #9D6EDB; animation: progresother2Animation 10s; }
+.progres-movedother3 .progres-bar { width: 30%; background-color: #9D6EDB; animation: progresother3Animation 10s; }
+.progres-movedother4 .progres-bar { width: 40%; background-color: #9D6EDB; animation: progresother4Animation 10s; }
+.progres-movedother5 .progres-bar { width: 50%; background-color: #9D6EDB; animation: progresother5Animation 10s; }
+.progres-movedother6 .progres-bar { width: 60%; background-color: #9D6EDB; animation: progresother6Animation 10s; }
+.progres-movedother7 .progres-bar { width: 70%; background-color: #9D6EDB; animation: progresother7Animation 10s; }
+.progres-movedother8 .progres-bar { width: 80%; background-color: #9D6EDB; animation: progresother8Animation 10s; }
+.progres-movedother9 .progres-bar { width: 90%; background-color: #9D6EDB; animation: progresother9Animation 10s; }
+.progres-movedother10 .progres-bar { width: 100%; background-color: #9D6EDB; animation: progresother10Animation 10s; }
+
+@keyframes progrestv0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progrestv1Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progrestv2Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progrestv3Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progrestv4Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv5Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv6Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv7Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv9Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progrestv10Animation { 0% {width: 0%;} 100% {width: 100%;}}
+@keyframes progressr0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progressr1Animation { 0% {width: 0%;} 100% {width: 10%;}}
+@keyframes progressr2Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progressr3Animation { 0% {width: 0%;} 100% {width: 30%;}}
+@keyframes progressr4Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progressr5Animation { 0% {width: 0%;} 100% {width: 50%;}}
+@keyframes progressr6Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progressr7Animation { 0% {width: 0%;} 100% {width: 70%;}}
+@keyframes progressr8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progressr9Animation { 0% {width: 0%;} 100% {width: 90%;}}
+@keyframes progressr10Animation { 0% {width: 0%;} 100% {width: 100%;}}
+@keyframes progresyt0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progresyt1Animation { 0% {width: 0%;} 100% {width: 10%;}}
+@keyframes progresyt2Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progresyt3Animation { 0% {width: 0%;} 100% {width: 30%;}}
+@keyframes progresyt4Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progresyt5Animation { 0% {width: 0%;} 100% {width: 50%;}}
+@keyframes progresyt6Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progresyt7Animation { 0% {width: 0%;} 100% {width: 70%;}}
+@keyframes progresyt8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progresyt9Animation { 0% {width: 0%;} 100% {width: 90%;}}
+@keyframes progresyt10Animation { 0% {width: 0%;} 100% {width: 100%;}}
+@keyframes progresgreshan0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progresgreshan1Animation { 0% {width: 0%;} 100% {width: 10%;}}
+@keyframes progresgreshan2Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progresgreshan3Animation { 0% {width: 0%;} 100% {width: 30%;}}
+@keyframes progresgreshan4Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progresgreshan5Animation { 0% {width: 0%;} 100% {width: 50%;}}
+@keyframes progresgreshan6Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progresgreshan7Animation { 0% {width: 0%;} 100% {width: 70%;}}
+@keyframes progresgreshan8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progresgreshan9Animation { 0% {width: 0%;} 100% {width: 90%;}}
+@keyframes progresgreshan10Animation { 0% {width: 0%;} 100% {width: 100%;}}
+@keyframes progresother0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progresother1Animation { 0% {width: 0%;} 100% {width: 10%;}}
+@keyframes progresother2Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progresother3Animation { 0% {width: 0%;} 100% {width: 30%;}}
+@keyframes progresother4Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progresother5Animation { 0% {width: 0%;} 100% {width: 50%;}}
+@keyframes progresother6Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progresother7Animation { 0% {width: 0%;} 100% {width: 70%;}}
+@keyframes progresother8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progresother9Animation { 0% {width: 0%;} 100% {width: 90%;}}
+@keyframes progresother10Animation { 0% {width: 0%;} 100% {width: 100%;}}
+@keyframes progreshold0Animation { 0% {width: 0%;} 100% {width: 0%;}}
+@keyframes progreshold1Animation { 0% {width: 0%;} 100% {width: 10%;}}
+@keyframes progreshold2Animation { 0% {width: 0%;} 100% {width: 20%;}}
+@keyframes progreshold3Animation { 0% {width: 0%;} 100% {width: 30%;}}
+@keyframes progreshold4Animation { 0% {width: 0%;} 100% {width: 40%;}}
+@keyframes progreshold5Animation { 0% {width: 0%;} 100% {width: 50%;}}
+@keyframes progreshold6Animation { 0% {width: 0%;} 100% {width: 60%;}}
+@keyframes progreshold7Animation { 0% {width: 0%;} 100% {width: 70%;}}
+@keyframes progreshold8Animation { 0% {width: 0%;} 100% {width: 80%;}}
+@keyframes progreshold9Animation { 0% {width: 0%;} 100% {width: 90%;}}
+@keyframes progreshold10Animation { 0% {width: 0%;} 100% {width: 100%;}}

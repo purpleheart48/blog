@@ -1,0 +1,44 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.info {
+padding-left:45pt;
+padding-top:8pt;
+padding-right:12pt;
+padding-bottom:8pt;
+background:#000000;
+border-radius:8pt;
+}
+.whya, .whyb {
+display:block;
+width:auto;
+color:white;
+margin:0;
+text-align: justify;
+line-height:150%;
+font-family: 'Nunito',sans-serif;
+}
+.info:before {
+position:absolute;
+left:0;
+top:3pt;
+padding:10px;
+color:#ffffff;
+font-size:30pt;
+display:inline-block;
+}
+.info:before {
+left:0;
+top:0pt;
+padding:10px;
+color:#ffffff;
+font-size:25pt;
+}
+.whya:before {
+content:"Why is it in form of MKV? ";
+font-weight:950;
+color: #9D6EDB;
+}
+.whyb:after {
+font-weight: 450;
+content:"Because the quality is bad so if it's made into hardsub (permanent), the subtitles will be hard to read and so that the subtitles can be saved in (.ass) form.";
+}

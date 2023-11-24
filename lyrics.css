@@ -1,0 +1,72 @@
+/*Fun begins*/
+.tab_container{width:100%;margin:0 auto;padding-top:70px;position:relative}
+input,section{clear:both;padding-top:10px;display:none}
+label{font-weight:700;font-size:14px;display:block;float:left;width:20%;padding:1em;color:#fff;cursor:pointer;text-decoration:none;text-align:center;background:#292f33}
+#tab1:checked ~ #content1,#tab2:checked ~ #content2,#tab3:checked ~ #content3,#tab4:checked ~ #content4,#tab5:checked ~ #content5{display:block;padding:20px;background:transparent;color:#fff;border-bottom:2px solid #9D6EDB}
+.tab_container .tab-content p,.tab_container .tab-content h3{-webkit-animation:fadeInScale 0.7s ease-in-out;-moz-animation:fadeInScale 0.7s ease-in-out;animation:fadeInScale 0.7s ease-in-out}
+.tab_container .tab-content h3{text-align:center}
+.tab_container [id^="tab"]:checked + label{background:#6835ad;box-shadow:inset 0 3px #9D6EDB;color:#fff}
+.tab_container [id^="tab"]:checked + label .fa{color:#9D6EDB}
+label .fa{font-size:1.3em;margin:0 0.4em 0 0;display:inline-block;width:1.28571429em;height:auto;float:none;margin-left:-15px;background:#6835ad}
+}
+/*Media query*/
+@media only screen and (max-width:900px){
+  label span{display:none}
+  .tab_container{width:98%}
+}
+/*Content Animation*/
+@keyframes fadeInScale{
+  0%{transform:scale(0.9);opacity:0}
+  100%{transform:scale(1);opacity:1}
+}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+/* SPOLIER CSS */
+.spoiler {
+    display:block; margin:10px 0px; border:1px solid #9D6EDB; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
+}
+.spoiler .bt {
+    background:#9D6EDB; /* Warna tombol */
+    color:#fff; /* Warna tulisan di tombol */
+    display:inline-block; cursor:pointer; font:normal 600 14px Quicksand,sans-serif; padding:0 10px; border:none; outline:none; line-height:20px; border-radius:3px; -moz-border-radius:3px;
+}
+.spoiler .bt:focus {
+    pointer-events:none;
+}
+.spoiler .bt:before {
+    content:'+'; /* Tulisan untuk membuka tombol */
+    display:inline-block; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
+}
+.spoiler .bt:focus::before {
+    content:'-'; /* Tulisan untuk menutup tombol */
+    background:#9D6EDB; /* Warna tombol ketika spoiler terbuka */
+}
+.spoiler .isi {
+    background:transparent; /* Warna background isi spoiler */
+    pointer-events:auto; visibility:hidden; opacity:0; height:0px; transition:all .5s ease;
+}
+.spoiler .bt:focus + .isi {
+    visibility:visible; opacity:1; height:auto; margin:10px 0px 5px; padding:10px 15px; transition:all .5s ease;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: inherit;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align:middle;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

@@ -1,0 +1,170 @@
+.dlbutton br {display: none !important;}
+.dlbutton {
+margin: auto;
+width: 200px; 
+border-radius: 8px;
+height: 30px;
+padding: 3pt;
+z-index: 1;
+}
+.downsubs a {
+display: block;
+width: 200px;
+height: 50px;
+border: 2px solid #fff;     
+background: linear-gradient(to right, #6835ad 50%, #9D6EDB  50%);
+background-size: 220% 100%;
+background-position: right bottom;
+transition: all .6s ease-out;
+border-radius: 7px;
+text-align: center;
+text-decoration: none;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&amp;amp;#39;#00b7ea&amp;amp;#39;, endColorstr=&amp;amp;#39;#009ec3&amp;amp;#39;,GradientType=0 );
+}
+.downsubs a, .slide {
+-webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.downhard a {
+display: block;
+width: 200px;
+height: 50px;
+border: 2px solid #fff;     
+background: linear-gradient(to right, #9D6EDB 50%, #9C53A7  50%);
+background-size: 220% 100%;
+background-position: right bottom;
+transition: all .6s ease-out;
+border-radius: 7px;
+text-align: center;
+text-decoration: none;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&amp;amp;#39;#00b7ea&amp;amp;#39;, endColorstr=&amp;amp;#39;#009ec3&amp;amp;#39;,GradientType=0 );
+}
+.downhard a, .slide {
+-webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.downmkv a {
+display: block;
+width: 200px;
+height: 50px;
+border: 2px solid #9D6EDB;     
+background: linear-gradient(to right, #2a004b 50%, #8a6d97  50%);
+background-size: 220% 100%;
+background-position: right bottom;
+transition: all .6s ease-out;
+border-radius: 7px;
+text-align: center;
+text-decoration: none;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&amp;amp;#39;#00b7ea&amp;amp;#39;, endColorstr=&amp;amp;#39;#009ec3&amp;amp;#39;,GradientType=0 );
+}
+.downmkv a, .slide {
+-webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.downraw a {
+display: block;
+width: 200px;
+height: 50px;
+border: 2px solid #9D6EDB;   
+background: linear-gradient(to right, #9D6EDB 50%, #fff  50%);
+background-size: 220% 100%;
+background-position: right bottom;
+transition: all .6s ease-out;
+border-radius: 7px;
+text-align: center;
+text-decoration: none;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&amp;amp;#39;#00b7ea&amp;amp;#39;, endColorstr=&amp;amp;#39;#009ec3&amp;amp;#39;,GradientType=0 );
+}
+.downraw a, .slide {
+-webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.slide {
+position: absolute;
+z-index: -1;
+display: block;
+margin: -50px 0 0 10px;
+width: 180px;
+height: 40px;
+background: #292f33;
+color: #fff;
+text-align: center;
+font: 12px/45px Quicksand, sans-serif;
+font-weight: bold;
+-webkit-transition: margin 0.5s ease;
+-moz-transition: margin 0.5s ease;
+-ms-transition: margin 0.5s ease;
+-o-transition: margin 0.5s ease;
+transition: margin 0.5s ease;
+border-radius: 7px;
+}
+.dlbutton a:hover {  
+background-position: left bottom; 
+}
+.downsubs a:hover {  
+background-position: left bottom; 
+}
+.downhard a:hover {  
+background-position: left bottom; 
+}
+.downmkv a:hover {  
+background-position: left bottom; 
+}
+.downraw a:hover {  
+background-position: left bottom; 
+}
+.dlbutton:hover .bottom {
+margin: -10px 0 0 10px;
+border-radius: 7px;
+}
+.dlbutton:hover .top {
+margin: -80px 0 0 10px;
+line-height: 35px;
+border-radius: 7px
+}
+.dlbutton a:active {
+background: #0f1012;
+background: -moz-linear-gradient(top,  #0f1012 36%, #0f1012 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#0f1012), color-stop(100%,#0f1012));
+background: -webkit-linear-gradient(top,  #0f1012 36%,#0f1012 100%);
+background: -o-linear-gradient(top,  #0f1012 36%,#0f1012 100%);
+background: -ms-linear-gradient(top,  #0f1012 36%,#0f1012 100%);
+background: linear-gradient(top,  #0f1012 36%,#0f1012 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&amp;amp;#39;#00695C&amp;amp;#39;, endColorstr=&amp;amp;#39;black&amp;amp;#39;,GradientType=0 );
+}
+.dlbutton:active .bottom {
+margin: -20px 0 0 10px;
+}
+.dlbutton:active .top {
+margin: -70px 0 0 10px;
+}
+.text {
+text-align: center;
+font-size: 17px/50px;
+line-height: 30px;
+display: block; 
+font-family: Quicksand, sans-serif;
+font-weight: bold;
+}
+.subs, .hardx, .harda, .hardb, .hardc, .harde, .mkv, .font, .raw { color: black; transition: all .4s ease-out;}
+.hulu { color: #1CE783; transition: all .4s ease-out;}
+.trak, .trem { color: #be1e2d; transition: all .4s ease-out;}
+.extra { color: #b4b4b4; transition: all .4s ease-out;}
+.subs:hover, .hardx:hover, .harda:hover, .hardb:hover, .hardc:hover, .harde:hover, .mkv:hover { color: white; }
+.hulu:hover, .trak:hover, .trem:hover { color: white; }
+.raw:hover, .font:hover, .extra:hover { color: white; }
+.textembd:hover { color: white; font-weight: bold; }
+.subs:before {  content: "Softsub";}
+.hardx:before {  content: "Hardsub";}
+.harda:before {  content: "Hardsub 720p";}
+.hardb:before {  content: "Hardsub 1080p";}
+.hardc:before {  content: "Hardsub 720p (x265)";}
+.harde:before {  content: "Hardsub 1080p (x265)";}
+.mkv:before {  content: "MKV + Subtitles";}
+.raw:before {  content: "RAW";}
+.extra:before {  content: "Epilogue & Extras";}
+.font:before {  content: "Must Download Font";}

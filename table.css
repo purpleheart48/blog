@@ -1,0 +1,27 @@
+table.desc {
+border: 5px solid #9D6EDB;
+border-radius: 14px;  
+color: #fff;
+width: 95%;
+padding: 3px;
+margin: auto;
+}
+td.desc-a {
+border: 5px solid #2a004b;  
+border-width: 2px 2px 2px 0px;
+padding: 5px;
+padding-left: 8px;
+background: #503771;
+color: #fff;
+border-collapse: collapse;
+font-family: Nunito, sans-serif; 
+font-weight: 700;
+}
+td.desc-c {
+padding: 5px;
+padding-left: 8px;
+color: #fff;
+font-family: Nunito, sans-serif;   
+font-weight: 700;
+background: black;
+    }
