@@ -1,5 +1,5 @@
 .box .title {
-background-color: #9D6EDB;
+background-color: #785f98;
 background-image: none;
 position: absolute;
 top: -15px;
@@ -24,7 +24,7 @@ padding: 10px;
 margin: 10px 0;
 }
 .box {
-background-color: #26282f;
+background-color: #785f98;
 color: #fff;
 position: relative;
 margin: 35px 0 20px;
@@ -72,7 +72,7 @@ border-radius: 8px;
 display: inline-block;
 position: relative;
 padding: 10px;
-background-color: #9D6EDB;
+background-color: #785f98;
 color: white !important;
 font-family: Quicksand, sans-serif;  
 font-size: 15px;
@@ -83,6 +83,6 @@ margin: 0px 10px 10px;
 width: 20%;
 }
 .dl-btn:hover {
-background-color:#6835ad;
+background-color:#5e477b;
 text-decoration:none;  
 }
