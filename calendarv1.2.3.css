@@ -1,0 +1,111 @@
+.jbox {
+  width:235px; 
+  background:#6835ad; 
+  border-radius:18px; 
+  overflow:hidden; 
+  margin:0 auto;
+}
+
+.jcal {
+  padding:0 10px 10px 10px; 
+  box-sizing:border-box!important; 
+  background:#6835ad; 
+  background: -webkit-linear-gradient(#9C53A7 , #6835ad )!important; 
+  background: -o-linear-gradient(#9C53A7 , #6835ad )!important; 
+  background: -moz-linear-gradient(#9C53A7 , #551A8B )!important; 
+  background: linear-gradient(#9C53A7 , #6835ad )!important;
+}
+
+.jcalt {
+  font-size:24px; 
+  font-family: Nunito, sans-serif;
+  font-weight:700; 
+  color:#f7f3eb; 
+  display:block; 
+  margin:18px 0 0 0; 
+  text-align:center; 
+  letter-spacing:1px;
+}
+
+.jcal span {
+  font-size:11px; 
+  font-family: Nunito, sans-serif;
+  font-weight:700;  
+  color:#f7f3eb; 
+  text-align:center; 
+  width:30px; 
+  height:30px; 
+  display:inline-block; 
+  float:left; 
+  overflow:hidden; 
+  line-height:30px;
+}
+
+.circle {
+  border:0px solid #f7f3eb; 
+  box-sizing:border-box!important; 
+  border-radius:8px!important;
+}
+.datej {  background:#d61515;  }
+.datek {  background:#ecd205;  }
+.datet {  background:#f3a1b8;  }
+.datetr {  background:#988e76;  }
+.datejk {  background:linear-gradient(to bottom, #d61515, #e9d212)  }
+.datejt {  background:linear-gradient(to bottom, #d61515, #f3a1b8)  }
+.datekt {  background:linear-gradient(to bottom, #ecd205, #f3a1b8)  }
+.datektr {  background:linear-gradient(to bottom, #ecd205, #988e76)  }
+.datettr {  background:linear-gradient(to bottom, #f3a1b8, #988e76)  }
+.datejg {  background:#720000;  }
+.datekg {  background:#3a68a1;  }
+.datetg {  background:#fd5051;  }
+.datetrg {  background:#686254;  }
+.datejkg {  background:linear-gradient(to bottom, #720000, #3a68a1)  }
+.datejtg {  background:linear-gradient(to bottom, #d4b37e, #fd5051)  }
+.datejtrg {  background:linear-gradient(to bottom, #720000, #988e76)  }
+.datektg {  background:linear-gradient(to bottom, #3a68a1, #fd5051)  }
+.datektrg {  background:linear-gradient(to bottom, #3a68a1, #988e76)  }
+.datejkt {  background:linear-gradient(to bottom, #e60c17, #ecd205, #f3a1b8)  }
+.datejgk {  background:linear-gradient(to bottom, #720000, #ecd205)  }
+.datejgt {  background:linear-gradient(to bottom, #720000, #f3a1b8)  }
+.datejgtr {  background:linear-gradient(to bottom, #720000, #988e76)  }
+.datekgj {  background:linear-gradient(to bottom, #3a68a1, #d61515)  }
+.datekgt {  background:linear-gradient(to bottom, #3a68a1, #f3a1b8)  }
+.datekgtr {  background:linear-gradient(to bottom, #3a68a1, #988e76)  }
+.datetgj {  background:linear-gradient(to bottom, #d61515, #fd5051)  }
+.datetgk {  background:linear-gradient(to bottom, #ecd205, #fd5051)  }
+.datetgtr {  background:linear-gradient(to bottom, #988e76, #fd5051)  }
+.datetne {  background:linear-gradient(to bottom, #e20613, #e20613)  }
+.datetgne {  background:linear-gradient(to bottom, #b90a0b, #b90a0b)  }
+.date11th {  background:linear-gradient(to bottom, #ff8c33, #ff8c33)  }
+.date11thg {  background:linear-gradient(to bottom, #c86c25, #c86c25)  }
+.date12th {  background:linear-gradient(to bottom, #fad8b2, #fad8b2)  }
+.date12thg {  background:linear-gradient(to bottom, #dec2a2, #dec2a2)  }
+
+span[data-title]:hover:after, 
+div[data-title]:hover:after {
+  font-size:11px;
+  font-family: Nunito, sans-serif;
+  font-weight:700; 
+  content:attr(data-title); 
+  position:absolute; 
+  background:#fff; 
+  border: 0px; 
+  border-radius: 4px; 
+  color:#282423; 
+  padding:4px; 
+  z-index:9999; 
+  max-width:100px;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in; 
+}
+div[data-title]:hover:before {
+  font-size:11px; 
+  font-weight:400; 
+  content:attr(data-year); 
+  font-size:11px; 
+  font-weight:400;
+  color:red;  
+}
